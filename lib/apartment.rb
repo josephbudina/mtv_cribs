@@ -13,4 +13,8 @@ class Apartment
         @renter = nil
         @hash = hash 
     end
+
+    def add_renter(renter_new)
+        @renter = renter_new
+    end
 end
