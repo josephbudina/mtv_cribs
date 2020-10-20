@@ -21,8 +21,8 @@ class BuildingTest < Minitest::Test
 
     def test_can_it_add_units
 
-       @building.add_unit(unit1)
-       @building.add_unit(unit2)
+       @building.add_unit(@unit1)
+       @building.add_unit(@unit2)
 
        assert_equal [@unit1, @unit2], @building.units
     end
